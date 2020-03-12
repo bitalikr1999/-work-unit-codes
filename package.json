@@ -1,0 +1,24 @@
+{
+  "name": "@work-unit/codes",
+  "version": "1.0.0",
+  "description": "Work unit CRM / statuses codes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/work-unity/codes.git"
+  },
+  "author": "vitalik.yatsenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/work-unity/codes/issues"
+  },
+  "homepage": "https://gitlab.com/work-unity/codes#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "prepublish": "tsc"
+}
